@@ -1,0 +1,96 @@
+body{
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+    
+}
+#p1{
+    font-style: italic;
+}
+
+header{
+    background-color: #f1dada;
+    color: rgb(114, 64, 3);
+    padding: 20px ;
+    text-align: center;
+}
+
+header h1{
+    margin: 0;
+    font-size: 2.5em;
+}
+
+header p{
+  margin: 10px 0 0;
+  font-size: 1.2em;
+}
+
+section{
+    padding: 20px;
+    text-align: center;
+}
+
+#about .about-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#about img{
+    border-radius: 50%;
+    margin-right: 20px;
+}
+#skills ul{
+    list-style: none;
+    padding: 0;
+}
+#skills li{
+    display: inline-block;
+    margin: 5px 10px;
+    padding: 10px 20px;
+    background-color:antiquewhite;
+    border-radius: 5px;
+}
+#projects .project{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin:20px 0;
+}
+
+#projects img{
+    max-width: 300px;
+    margin-right: 20px;
+}
+
+#projects .project-info{
+    max-width: 500px;
+}
+
+#resume a{
+  text-decoration: none;
+  color: azure;
+  background-color: rgb(138, 112, 179);
+  padding: 10px 20px;
+  border-radius: 5px;
+  display: inline-block;
+  margin-top:10px;
+}
+
+#resume  a:hover{
+    background-color:rgb(55, 31, 164);
+}
+
+#contact p{
+    margin: 10px 0;
+}
+
+footer{
+    background-color: rgba(111, 215, 210, 0.605);
+    color: #c45050;
+    text-align: center;
+    padding: 8px 0;
+}
